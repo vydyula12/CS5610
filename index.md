@@ -27,22 +27,22 @@ This way we can add or remove additional tables into consideration.
 
 Below observations were provided as an example. We discuss more categories and plots in .rmd file and in the shiny app created for this project. 
 
-#### Consumer Expenditure by Age Groups
+#### Consumer Expenditure on Entertainment by Age Groups
 
 ![](https://github.com/vydyula12/CS5610/blob/main/plots/byage-Entertainment.png?raw=true)
 
 Spending on Entertainment for most of the app groups changed in 2020. Except for the age group 35-44 years, we can observe all other groups have reduced their spending in this category.
 
 
-#### Consumer Expenditure by occupation
+#### Consumer Expenditure on Food by occupation
 
-![](https://github.com/vydyula12/CS5610/blob/main/plots/occupation-Food.png?raw=true)
+![](https://github.com/vydyula12/CS5610/blob/main/plots/byOccupation-Food.png?raw=true)
 
 Spending on food has significantly increased under the Manager and professionals category. Construction workers and mechanics and retired consumers have reduced their spending on Food. We can see a decrease in a few other categories as well. 
 
 
 
-#### Consumer Expenditure by education level
+#### Consumer Expenditure on Entertainment by education level
 ![](https://github.com/vydyula12/CS5610/blob/main/plots/byeducation-Entertainment.png?raw=true)
 
 Similar to age group data, we can spot a decline in spending on Entertainment. Consumers with Master's, professional and doctoral degree has reduced spending on Entertainment during 2020. We can spot more spending during 2019 for the same category.
