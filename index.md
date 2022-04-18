@@ -1,4 +1,7 @@
-# Data Collection
+# Exploratory Analysis of U.S Consumer Expenditure
+
+
+## Data Collection
 
 * The data available at https://www.bls.gov/cex/ are in PDF files and in unreadable format. The primary challenge was to get this data into excel spreadsheets. 
 * Once the data is copied over to excel speadsheet we observed most of the columns were merged and not properly readable by R
@@ -8,7 +11,7 @@
 
 
 
-# Coding Approach
+## Coding Approach
 
 The data is in several different sheets (excel tabs) for each year. We needed to dynamically read the date based on the information available in "Summary" table. This decision was made to answer "What if we decided to consider another dataset?". Rather than having them mentioned in the R code, the Summary table helps the R to instruct what tables to pull from excel spreadsheets. 
 
@@ -19,7 +22,7 @@ The data is in several different sheets (excel tabs) for each year. We needed to
 This way we can add or remove additional tables into consideration.
 
 
-# Observations
+## Observations
 
 
 Below observations were provided as an example. We discuss more categories and plots in .rmd file and in the shiny app created for this project. 
